@@ -4,21 +4,21 @@ import java.util.Hashtable;
 import java.util.Scanner;
 
 /**
- * Given two strings, that may or may not be of the same length,
+ * Given two strings a and b, that may or may not be of the same length,
  * determine the minimum number of character deletions required to make a and b anagrams.
  * Any characters can be deleted from either of the strings.
  *
- * Input ::  cde  and abc
+ * Input ::  MARK  and MIKE
  * Output::  4
  *
- * @see <a href="">Anagram</a>
+ * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test102Anagrams.java">Anagram</a>
  */
 public class Test102Anagrams {
 
     private static final Scanner SCANNER = new Scanner(System.in);
 
     /**
-     *   / / TTAPE   and TPEAT
+     *        TTAPE   and TPEAT
      *
      *         // t - 2
      *         // A - 1
