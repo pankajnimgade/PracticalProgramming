@@ -13,6 +13,8 @@ import java.util.Scanner;
  *          ***####***
  *          ****##****
  *          **********
+ *
+ * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test105PatternWithChisel.java">Palindrome</a>
  */
 public class Test105PatternWithChisel {
 
