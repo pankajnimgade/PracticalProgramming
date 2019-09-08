@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * 5! = 5 * 4 * 3 * 2 * 1 = 120
  *
- * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test107Factorial.java">Palindrome</a>
+ * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test107Factorial.java">Factorial</a>
  */
 public class Test107Factorial {
 

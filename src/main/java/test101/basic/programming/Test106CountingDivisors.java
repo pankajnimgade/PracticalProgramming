@@ -13,7 +13,7 @@ import java.util.Scanner;
  * Output :
  * 3
  *
- * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test106CountingDivisors.java">Palindrome</a>
+ * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test106CountingDivisors.java">Counting Divisors</a>
  */
 public class Test106CountingDivisors {
 
