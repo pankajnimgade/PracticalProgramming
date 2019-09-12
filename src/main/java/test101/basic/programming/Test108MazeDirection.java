@@ -1,16 +1,16 @@
 package test101.basic.programming;
 
-import javafx.util.Pair;
 
 import java.util.Scanner;
 
 /**
  * for a given string in following letters: L, R, U, D
- *
+ * <p>
  * find out what would be the destination coordinates would be is you would follow the given string directions
- *
+ * <p>
  * Input  :  U
  * Output :  0 1
+ *
  * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test108MazeDirection.java">Maze Direction</a>
  */
 public class Test108MazeDirection {
@@ -21,9 +21,9 @@ public class Test108MazeDirection {
 
         String givenDirection = SCANNER.next();
 
-        Pair<Integer, Integer> destinationLocation = getDestinationLocation(givenDirection);
+        Coordinate coordinate = getDestinationLocation(givenDirection);
 
-        System.out.println("X-axis: "+destinationLocation.getKey()+", Y-axis: "+destinationLocation.getValue());
+        System.out.println("X-axis: " + coordinate.x + ", Y-axis: " + coordinate.y);
     }
 
     /**
@@ -41,26 +41,31 @@ public class Test108MazeDirection {
      * @param givenDirection
      * @return
      */
-    private static Pair<Integer, Integer> getDestinationLocation(String givenDirection) {
-        int x = 0; // position at x-axis
-        int y = 0; // position at y-axis
+    private static Coordinate getDestinationLocation(String givenDirection) {
+        Coordinate coordinate = new Coordinate();
 
         for (char character : givenDirection.toCharArray()) {
-            switch (character){
+            switch (character) {
                 case 'L':
-                    x--;
+                    coordinate.x--;
                     break;
                 case 'R':
-                    x++;
+                    coordinate.x++;
                     break;
                 case 'U':
-                    y++;
+                    coordinate.y++;
                     break;
                 case 'D':
-                    y--;
+                    coordinate.y--;
                     break;
             }
         }
-        return new Pair<>(x, y);
+        return coordinate;
     }
 }
+
+class Coordinate {
+    int x;
+    int y;
+}
+
