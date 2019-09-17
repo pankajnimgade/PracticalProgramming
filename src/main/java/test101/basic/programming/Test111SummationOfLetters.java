@@ -10,6 +10,8 @@ import java.util.Scanner;
  *
  * Input    : hello
  * Output   : 52
+ *
+ * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test111SummationOfLetters.java">Summation of letters</a>
  */
 public class Test111SummationOfLetters {
 
