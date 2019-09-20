@@ -19,6 +19,7 @@ public class Test114DiceSequence {
 
     /**
      *  1   6   5   2
+     *  for above input 3 rabbits have played.
      * @param args
      */
     public static void main(String[] args) {
