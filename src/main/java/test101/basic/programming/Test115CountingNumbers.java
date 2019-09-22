@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Input :   mike123hello1212eee1
  * Output:   3
  *
- * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test114DiceSequence.java">Dice Sequence</a>
+ * @see <a href="https://github.com/pankajnimgade/PracticalProgramming/blob/master/src/main/java/test101/basic/programming/Test115CountingNumbers.java">Counting Numbers</a>
  */
 public class Test115CountingNumbers {
 
