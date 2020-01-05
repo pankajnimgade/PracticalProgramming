@@ -3,7 +3,7 @@ package test101.basic.programming;
 import java.util.HashMap;
 
 /**
- * For a given number in text form, find out how many times every digit was repeated.
+ * For a given array of number, find out if all numbers in that array are unique to that array.
  * <p>
  * Input    :  {1, 2, 3, 4, 5, 6, 7, 8, 9}
  * Output   :  true
